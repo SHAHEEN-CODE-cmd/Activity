@@ -1,0 +1,45 @@
+
+body{
+    text-align: center;
+
+}
+div{
+    height:100px;
+    width:500px;
+    border:2px solid black;
+    text-decoration: wavy;
+    margin:auto;
+    text-align: center;
+}
+#face{
+    height:400px;
+    width:400px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    position: relative;
+}
+#mouth{
+    height:100px;
+    width: 100px;
+    background-color: brown;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    display: inline-block;
+    position:absolute;
+    top:250px;
+    left:155px;
+}
+#eye{
+    height: 50px; 
+    width: 50px;
+    background-color: black;
+    border-radius: 50px;
+    display: inline-block;
+    margin:40px; 
+    position:relative;
+    top:-55px;
+    left:5px;
+    text-align: center;
+}
